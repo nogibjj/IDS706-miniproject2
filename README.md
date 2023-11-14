@@ -36,4 +36,7 @@ This Python script is designed to perform descriptive statistics using the Panda
 ## Result:
 
 
+<img width="552" alt="Screenshot 2023-11-14 at 12 26 29" src="https://github.com/nogibjj/mini-proj2-rc/assets/123079408/4c742314-59b5-4887-ad3c-411dfc934bc5">
+
+
 ![Alt text](result.png)
