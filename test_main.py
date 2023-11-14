@@ -1,18 +1,18 @@
-"""Test file to verify main function"""
+"""
+Test goes here
 
+"""
+
+from main import func
 import pandas as pd
-from main import descriptive_stats
 
-def test_stat():
-    # initialize list elements
-    name = ["A", "B", "C", "D"]
-    age = [10,20,30,40]
-    height = [5, 5.5, 6, 5]
-      
-    # Create the pandas DataFrame
-    df = pd.DataFrame(list(zip(name, age, height)), columns =['Name', 'Age', 'Height'])
-    
-    assert df.loc[:, 'Age'].mean() == descriptive_stats(df,2)
-    assert df.loc[:, 'Height'].mean() == descriptive_stats(df)
 
-test_stat()
+def test_func():
+    data = pd.read_csv("./data.csv")
+    res = func(data)
+    assert(len(res) == 0)
+
+
+if __name__ == "__main__":
+    test_func()
+    print("CI passed.")
