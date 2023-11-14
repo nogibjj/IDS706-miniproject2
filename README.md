@@ -21,7 +21,7 @@ This Python script is designed to perform descriptive statistics using the Panda
    pip install pandas matplotlib
    ```
 
-3. Clone this repository or download the script file (`script.py`) to your local machine.
+3. Clone this repository or download the script file (`main.py`) to your local machine.
 
 4. Place your dataset file (in CSV format) in the same directory as the script, or specify the correct path in the script.
 
